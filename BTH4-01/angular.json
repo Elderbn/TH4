@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "BTH4-b1": {
+    "BanOto": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/BTH4-b1",
+            "outputPath": "dist/BanOto",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "BTH4-b1:build"
+            "browserTarget": "BanOto:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "BTH4-b1:build:production"
+              "browserTarget": "BanOto:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "BTH4-b1:build"
+            "browserTarget": "BanOto:build"
           }
         },
         "test": {
@@ -110,19 +110,19 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "BTH4-b1:serve"
+            "devServerTarget": "BanOto:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "BTH4-b1:serve:production"
+              "devServerTarget": "BanOto:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "BTH4-b1",
+  "defaultProject": "BanOto",
   "cli": {
-    "analytics": "5d7eaf21-2ab6-46aa-8c72-1e7b05b4331a"
+    "analytics": "615c695f-4b45-4a7c-96f9-e89ecc1922a5"
   }
 }
